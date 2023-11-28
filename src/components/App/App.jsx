@@ -14,7 +14,7 @@ function App() {
             </header>
 
             <Nav />
-            
+
             <br/>
 
             <Route exact path="/home">
@@ -22,11 +22,17 @@ function App() {
             </Route>
 
 
-            <p>Student list:</p>
+            
 
             <Route exact path="/allStudents">
+                <p>Student list:</p>
                 <StudentList />
             </Route>
+
+            <Route exact path="/about">
+                <p>This is cool stuff about students and their git hub names</p>
+            </Route>
+
 
             </Router>
         </div>

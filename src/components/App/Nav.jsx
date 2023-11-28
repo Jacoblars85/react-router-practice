@@ -10,8 +10,8 @@ function Nav() {
       <Link to="allStudents/">
         <ul>All Students</ul>
       </Link>
-      <Link to="/">
-        <ul>about</ul>
+      <Link to="/about">
+        <ul>About</ul>
       </Link>
     </li>
   )
